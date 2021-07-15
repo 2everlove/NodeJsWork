@@ -9,3 +9,7 @@ http.createServer((req, res)=>{
 });
 
 //http://localhost:12500/
+
+//linux conmmand
+//lsof -i tcp:12500 // -> processid
+//kill -9 processid
