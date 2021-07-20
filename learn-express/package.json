@@ -1,0 +1,11 @@
+{
+  "name": "learn-express",
+  "version": "1.0.0",
+  "description": "learn express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "2everlove",
+  "license": "MIT"
+}
