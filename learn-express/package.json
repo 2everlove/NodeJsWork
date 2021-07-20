@@ -9,7 +9,8 @@
   "author": "2everlove",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "express": "^4.17.1"
