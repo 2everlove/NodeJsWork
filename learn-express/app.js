@@ -1,10 +1,12 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
 app.set('port', process.env.PORT || 3000);
 
 app.get('/', (req, res) => {
-    res.send('Hello, Express');
+    //res.send('Hello, Express');
+    res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 app.listen(app.get('port'), () => {
@@ -24,4 +26,5 @@ $ npm start
 [nodemon] starting `node app.js`
 ready to 3000 port
 
+http://localhost:3000/
 */
