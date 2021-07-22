@@ -6,9 +6,16 @@ const dotenv = require('dotenv');
 const path = require('path'); //path
 
 dotenv.config();
+
+const indexRouter = require('./routes');
+const userRouter = require('./routes/user');
+
 const app = express();
 app.set('port', process.env.PORT || 3000);
 
+
+app.use('/', indexRouter);
+app.use('/user', userRouter);
 
 app.use(morgan('dev'));
 app.use('/', express.static(path.join(__dirname, 'public')));
@@ -66,6 +73,10 @@ app.post('/upload',
 app.use((req, res, next) => {
     console.log('execute all requests');
     next();
+});
+
+app.use((req, res, next) => {
+    res.status(404).send('Not Found');
 });
 
 app.get('/', (req, res, next) => {
