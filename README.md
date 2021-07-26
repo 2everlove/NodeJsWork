@@ -2,7 +2,7 @@
  
 <ol>
  <h2><li>Learn sequelize</li></h2>
- <p>nodeJS join with MySQL<br>
+ <p><b>NodeJS join with MySQL</b><br>
 $ npm i express morgan nunjucks sequelize sequelize-cli mysql2<br>
 $ npm i - D nodemon<br>
 <br>
@@ -28,5 +28,5 @@ $ npm start<br>
 [nodemon] starting `node app.js`<br>
 Waiting on port  3001<br>
 Executing (default): SELECT 1+1 AS result<br>
-Database connection successful<br>
+  Database connection successful<br></p>
 <ol>
