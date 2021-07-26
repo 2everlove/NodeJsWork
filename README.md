@@ -1,7 +1,7 @@
 # NodeJsWork
  
 <ol>
- <li><h2>Learn sequelize</h2></li>
+ <h2><li>Learn sequelize</li></h2>
  <p>nodeJS join with MySQL<br>
 $ npm i express morgan nunjucks sequelize sequelize-cli mysql2<br>
 $ npm i - D nodemon<br>
