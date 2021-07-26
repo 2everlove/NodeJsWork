@@ -1,0 +1,22 @@
+{
+    "name": "learn-sequelize",
+    "version": "0.0.1",
+    "description": "learn sequelize",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app"
+    },
+    "author": "2everlove",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "morgan": "^1.10.0",
+        "mysql2": "^2.2.5",
+        "nunjucks": "^3.2.3",
+        "sequelize": "^6.6.5",
+        "sequelize-cli": "^6.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
